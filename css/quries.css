@@ -1,0 +1,172 @@
+/* big tablets to 1200px:(widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0px 2%;
+  }
+  .hero-img-text {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+/* small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .step-box:first-child {
+    margin-top: 10px;
+  }
+  .step-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .app-screen {
+    width: 50%;
+  }
+  .icon-small {
+    width: 15px;
+    margin-right: 2px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+  .plain-box {
+    width: 100%;
+    margin-left: 0;
+  }
+  .plan-price {
+    font-size: 250%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+}
+/* small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-img-text {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0% 0 4% 0;
+  }
+  .main--nav {
+    float: left;
+    margin-top: 25px;
+    display: none;
+  }
+  .main--nav li {
+    display: block;
+  }
+  .main--nav li a:link,
+  .main--nav li a:link {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+  .mobile--nav {
+    display: inline-block;
+  }
+
+  .stickey .main--nav li a:link,
+  .stickey .main--nav li a:visited {
+    padding: 10px 0;
+  }
+  .stickey .main--nav {
+    margin-top: 10px;
+  }
+
+  .stickey .logo {
+    display: none;
+  }
+  .stickey .mobile--nav {
+    color: #555;
+    margin-top: 15px;
+  }
+  .long-copy {
+    width: 100%;
+    margin: 0%;
+    text-align: justify;
+    /* margin-bottom: 10px; */
+  }
+  .box {
+    margin-bottom: 17px;
+    padding: 10%;
+  }
+  .section-features .long-copy {
+    margin-bottom: 46px;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+  .works-step {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 50px;
+  }
+  .app-screen {
+    width: 40%;
+  }
+  .works-step div {
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    margin-right: 20px;
+  }
+  .step-box:first-child {
+    text-align: center;
+  }
+  .step-box:last-child {
+    padding-left: 0%;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+/* small phones: from 0 to 480 */
+@media only screen and (max-width: 480px) {
+  .contact-form {
+    width: 100%;
+  }
+  section {
+    padding: 25px 0;
+  }
+}
+
+@media only screen and (max-width: 285px) {
+  h1 {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 13px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+}
